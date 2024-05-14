@@ -1,16 +1,15 @@
-# car
+# Car --> i QinPlus DM-i
 
-A new Flutter project.
+## Run command
 
-## Getting Started
+``` dart
+flutter run -d "chrome" --web-browser-flag "--disable-web-security"
+```
 
-This project is a starting point for a Flutter application.
+### Web
 
-A few resources to get you started if this is your first Flutter project:
+网络图片跨域不显示或者爬虫接口无法调用，需要加参数`--web-browser-flag "--disable-web-security"`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Json .g.dart creator
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter pub run build_runner build
